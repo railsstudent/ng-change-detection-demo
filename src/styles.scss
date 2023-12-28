@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+div.child, div.parent, div.grand-parent {
+  padding: 1rem;
+}
+
+div.child {
+  border: 1px solid rebeccapurple;
+}
+
+div.parent {
+  border: 1px solid red;
+}
